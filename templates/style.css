@@ -120,7 +120,7 @@
     margin-top: -208px;
     }
     .section-5 {
-    height: 100vh;
+    height: 110vh;
     background-color: #979797;
     text-align: center;
     }
@@ -216,4 +216,16 @@
    }
    .footer-footer #created-by {
        padding-right: 420px;
+   }
+   .section-5 #circle {
+    position:relative;
+    transition: .5s ease;
+    top: 150px;
+    left: -600px;
+    bottom: -150px;
+    border-radius: 10px;
+    border: black;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: black;
    }
